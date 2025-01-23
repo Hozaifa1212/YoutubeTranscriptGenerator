@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="Script.js"></script> <!-- Include your JS file -->
+    <title>YouTube Transcription</title>
+</head>
+<body>
+    <div>
+        <label for="youtube-url">Enter YouTube URL:</label>
+        <input type="text" id="youtube-url" placeholder="https://www.youtube.com/watch?v=..." />
+        <button onclick="transcribeYouTubeVideo()">Transcribe</button>
+    </div>
+    <div>
+        <h3>Transcription:</h3>
+        <pre id="transcription"></pre>
+    </div>
+
+
+</body>
+</html>
